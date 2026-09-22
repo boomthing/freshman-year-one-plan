@@ -49,3 +49,7 @@
 - 所有课程卡片和价格卡片完整位于同一页。
 
 内容数量遵循产品原型：高数 17 套、英语 3 套、1V1 共 6 次、赠送面试大班课 2 节。没有添加考试或升学结果承诺。
+
+## 发布到 GitHub Pages
+
+仓库已包含 `.github/workflows/deploy-pages.yml`。将 `main` 分支推送至 GitHub 后，GitHub Actions 会自动将 `dist/` 发布为 GitHub Pages。第一次发布完成后，可在仓库的 **Actions** 页面打开最新的 `Deploy GitHub Pages` 工作流，并使用其中的 deployment 链接访问网站。
