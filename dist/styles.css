@@ -940,6 +940,54 @@ h1 {
   color:var(--navy);
 }
 
+.question-bank {
+  background:#fbfcff;
+}
+
+.question-bank .section-heading {
+  margin-bottom:24px;
+}
+
+.question-lead {
+  max-width:760px;
+  margin:0 auto 35px;
+  color:var(--muted);
+  font-size:16px;
+  line-height:2;
+  text-align:center;
+}
+
+.question-grid {
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:20px;
+}
+
+.question-card {
+  border:1px solid var(--line);
+  border-radius:18px;
+  background:#fff;
+  padding:27px;
+}
+
+.question-card>span {
+  font:12px Arial,sans-serif;
+  letter-spacing:1px;
+  color:var(--orange);
+}
+
+.question-card h3 {
+  margin-top:17px;
+  font-size:21px;
+}
+
+.question-card p {
+  margin-top:12px;
+  color:var(--muted);
+  font-size:14px;
+  line-height:1.9;
+}
+
 .subject-grid {
   display:grid;
   grid-template-columns:1fr 1fr;
@@ -1230,6 +1278,21 @@ h1 {
   color:var(--muted);
 }
 
+.price-assurance {
+  margin-top:18px;
+  border-left:3px solid var(--orange);
+  padding:8px 0 8px 12px;
+  color:#53637d!important;
+  font-size:13px!important;
+  line-height:1.8;
+}
+
+.price-assurance strong {
+  display:block;
+  color:var(--navy);
+  font-size:14px;
+}
+
 .price-contact {
   margin-top:27px;
 }
@@ -1441,6 +1504,12 @@ h1 {
   margin-top:9px;
 }
 
+.final-bottom .final-assurance {
+  color:#f0bd82;
+  font-weight:600;
+  margin-top:12px;
+}
+
 .light-button {
   background:white;
   color:var(--navy);
@@ -1534,6 +1603,15 @@ h1 {
   .why-grid,.module-grid,.mentoring-grid,.bonus-grid,.roadmap-grid,.checklist,.subject-grid,.price-card,.final-grid {
     grid-template-columns:1fr;
   }
+  .question-grid {
+    grid-template-columns:1fr;
+  }
+  .question-card {
+    padding:26px;
+  }
+  .question-card p {
+    font-size:16px;
+  }
   .why-grid {
     gap:24px;
   }
@@ -1626,6 +1704,10 @@ h1 {
   }
   .subject-grid {
     gap:30px;
+  }
+  .question-lead {
+    text-align:left;
+    font-size:15px;
   }
   .subject h2 {
     font-size:30px;
@@ -2214,6 +2296,41 @@ h1 {
     margin-top:7mm;
     text-align:center;
   }
+  .question-bank {
+    padding:8mm 5mm!important;
+  }
+  .question-bank .section-heading {
+    margin-bottom:4mm;
+  }
+  .question-bank .section-heading h2 {
+    font-size:22pt;
+  }
+  .question-lead {
+    max-width:150mm;
+    margin:0 auto 5mm;
+    font-size:9pt;
+    line-height:1.85;
+  }
+  .question-grid {
+    grid-template-columns:repeat(3,1fr);
+    gap:4mm;
+  }
+  .question-card {
+    padding:4mm;
+    border-radius:4mm;
+  }
+  .question-card>span {
+    font-size:7pt;
+  }
+  .question-card h3 {
+    margin-top:3mm;
+    font-size:12pt;
+  }
+  .question-card p {
+    margin-top:2mm;
+    font-size:8pt;
+    line-height:1.8;
+  }
   .subject-grid {
     grid-template-columns:1fr 1fr;
     gap:10mm;
@@ -2396,6 +2513,14 @@ h1 {
   .price-summary>p {
     font-size:8pt;
   }
+  .price-assurance {
+    margin-top:4mm;
+    padding:2mm 0 2mm 3mm;
+    font-size:8pt!important;
+  }
+  .price-assurance strong {
+    font-size:9pt;
+  }
   .price-contact {
     margin-top:8mm;
     display:block;
@@ -2498,6 +2623,10 @@ h1 {
   .final-bottom p {
     font-size:9pt;
     margin-top:3mm;
+  }
+  .final-bottom .final-assurance {
+    font-size:9pt;
+    margin-top:4mm;
   }
   .site-footer {
     padding:8mm 0 0;
